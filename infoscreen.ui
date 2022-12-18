@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1000</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(81, 81, 81)</string>
+   </property>
+   <widget class="QLabel" name="periodchange">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>120</y>
+      <width>1341</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border: 6px ridge rgb(130, 0, 0);</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="text">
+     <string>Thank you for using my program :)
+To report any problems/leave suggestions, please email afrazkhan2005@gmail.com
+
+The Standard Schedule Clock gives the following notifications at the following times:
+--[8:30 - Go to Block 11/21]--&gt; [9:55 - Go to Homeroom]--&gt; [10:09 - Go to Block 12/22]--&gt; [11:39 - Go to A Lunch]--&gt; [12:13 - Go to Block 13/23]--&gt; [12:43 - Go to B Lunch Electives]--&gt; [1:02 - C Lunch Electives End]--&gt; [1:37 - B Lunch Electives End]--&gt; [1:45 - Go to Block 14/24]--&gt; [3:25 - Dismissal Screen Shows]
+
+The early release schedule uses the same notifications,  but uses these times instead
+-- 8:30, 9:45, 9:54, 11:06, 11:40, 12:10, 12:20, 12:55, 1:00, 2:25
+
+The exam schedule is for the 2 exam day schedule. It follows these times and notifications:
+--[8:30 - Exam 1 Start]--&gt; [10:30 - Exam 1 End]--&gt; [10:40 - Exam 2 Start]--&gt; [12:40 - Dismissal Screen Shows]
+
+The plain clock follows no notifications, it only shows the time, date, and weather </string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="gobackhome">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>130</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(107, 107, 107);
+border: 4px groove rgb(130, 0, 0);
+color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>&lt;-- Back</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../AppData/PycharmProjects/BellClock-actual/HHSLogoTransparent.qrc"/>
+ </resources>
+ <connections/>
+</ui>
